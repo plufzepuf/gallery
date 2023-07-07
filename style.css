@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_div-bigLine{
+    background-color: black;
+    height: 9vh;
+    width: 100%;
+}
+.header_div-logo{
+    border: solid 0.4vh;
+    border-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh 10vh 3vh;
+    margin: 2vh;
+    max-width: 50vh;
+    min-height: 10vh;
+}
+.header__div_p-logoBig{
+    font-size: 5vh;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.header__div_p-logoLil{
+    font-size: 3vh;
+    font-family:'Lexend Peta', sans-serif, light;
+}
+.header_div-preface{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 2vh 3%;
+    max-width: 90vh;
+}
+.header__div_p-caption{
+    font-size: 4vh;
+    font-family: 'Lexend Peta', sans-serif;
+}
+.header__div_p-text{
+    font-size: 2vh;
+    font-family: 'Source Code Pro', monospace;
+    max-width: 100%;
+}
+.main_div{
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0 ;
+}
+.main_div-butt{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 1);
+    padding: 3vh;
+    font-size: 3vh;
+    font-family: 'Lexend Peta', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#stock{
+    border-right: solid 0.2vh black;
+}
+#comm{
+    border-left: solid 0.2vh black;
+}
+.slick-slider{
+    display: flex !important;
+    align-items: center;
+    position: absolute;
+}
+.carousel__item{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.main__div{
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 0.4vh black;
+    font-size: 2vh;
+    font-family: 'Source Code Pro', monospace;
+}
+.image{
+    width: 30vw;
+    height: auto;
+    background-color: rgba(217, 217, 217, 1);
+    padding: 10vh;
+}
+.main_div-figure{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+.main_figure-capital{
+    font-size: 4vh;
+    font-family: 'Lexend Peta', sans-serif;
+    margin: 0 3vh;
+    min-width: 10%;
+    white-space: nowrap;
+}
+.main_figure-text{
+    font-size: 2.5vh;
+    font-family: 'Source Code Pro', monospace;
+    margin: 10vh 3vh 3vh 3vh;
+    max-width: 50%;
+}
+.main_div-infoArea{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form>div{
+    display: flex;
+    justify-content:space-between;
+    margin: 8vh 10% 0 10%;
+}
+.info{
+    border: solid 0.4vh black;
+    border-radius: 40px;
+    font-size: 2.5vh;
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 2%;
+    width: 75%;
+    height: 7vh;
+}
+label{
+    font-size: 2.5vh;
+    font-family: 'Source Code Pro', monospace;
+}
+#commen{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    margin: 8vh 10% 8vh 10%;
+}
+textarea{
+    border: solid 0.4vh black;
+    border-radius: 41px;
+    font-size: 2.5vh;
+    font-family: 'Source Code Pro', monospace;
+    padding: 2%;
+    margin: 3vh 0 0 0;
+}
+.butt{
+    border: none;
+    background-color: rgba(217, 217, 217, 1);
+    font-size: 4vh;
+    font-family: 'Lexend Peta', sans-serif;
+    height: 10vh;
+    width: 100%;
+}
+.main_article-eco{
+    width: 100%;
+    border-top: solid black 0.4vh;
+}
+.main_article-div-caption-eco{
+    display: flex;
+    align-items: center;
+    margin: 3vh 0 3vh 3vh;
+}
+.eco-logo{
+    height: 15vh;
+    width: auto;
+}
+.main_article-caption-text{
+    font-size: 6.5vh;
+    font-family: 'Lexend Peta', sans-serif;
+    margin-left: 7vw;
+}
+.main_article-div-paper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+}
+.main_article-div-text1{
+    font-size: 2.5vh;
+    font-family: 'Source Code Pro', monospace;
+    max-width: 40vw;
+}
+.main_article-div-photo1{
+    height: 30vw;
+}
+.main_article-div-caption1{
+    display: flex;
+    justify-content: start;
+    margin-top: 10vh;
+}
+.main_article-div-caption1-text{
+    font-size: 6.5vh;
+    font-family: 'Lexend Peta', sans-serif;
+    margin-left: 5vw;
+}
+.main_article-div-text2{
+    font-size: 2.5vh;
+    font-family: 'Source Code Pro', monospace;
+    max-width: 45vw;
+}
+.main_article-div-photo2{
+    width: 33vw;
+    height: auto;
+    margin-left: 3vw;
+}
+#autor-link{
+    color: gray;
+    text-decoration: none;
+    font-size: 2vh;
+    font-family: 'Source Code Pro', monospace;
+}
+.finalWords{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    padding: 0 20vw;
+}
+footer{
+    display: flex;
+    justify-content: center;    
+    width: 100%;
+    background-color: black;
+}
+.footer_div-create{
+    font-size: 1.5vh;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    margin-bottom: 2vh ;
+    margin-top: 2vh;
+    border: solid 0.2vh white;
+    border-radius: 10px;
+    padding: 1vh 10vw;
+}
+@media (max-width: 900px) {
+    .main_div{
+        display: flex;
+        justify-content: center;
+        margin: 5vh 0;
+    }
+    .main_div-butt{
+        width: 49%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(217, 217, 217, 1);
+        padding: 1vh;
+        font-size: 2vh;
+        font-family: 'Lexend Peta', sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+    .eco-logo{
+        height: 6vh;
+        width: auto;
+    }
+    .main_article-caption-text{
+        font-size: 2vh;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-left: 7vw;
+    }
+    .main_article-div-paper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    .main_article-div-text1{
+        font-size: 2vh;
+        font-family: 'Source Code Pro', monospace;
+        max-width: 80vw;
+    }
+    .main_article-div-photo1{
+        width: 75vw;
+        height: auto;
+        margin-top: 3vh;
+    }
+    .main_article-div-caption1{
+        display: flex;
+        justify-content: end;
+        margin-top: 5vh;
+    }
+    .main_article-div-caption1-text{
+        font-size: 2vh;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-right: 10vw;
+    }
+    .main_article-div-text2{
+        font-size: 2vh;
+        font-family: 'Source Code Pro', monospace;
+        max-width: 80vw;
+    }
+    .main_article-div-photo2{
+        width: 75vw;
+        height: auto;
+        margin-left: 3vw;
+        margin-bottom: 3vh;
+    }
+    .finalWords{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vh;
+        font-family: 'Source Code Pro', monospace;
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+        text-align: center;
+        padding: 0 20vw;
+    }
+    .header_div-logo{
+        border: solid 0.4vh;
+        border-color: black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vh 10vh 1vh;
+        margin: 2vh;
+        max-width: 50vh;
+        min-height: 4vh;
+    }
+    .header__div_p-logoBig{
+        font-size: 3vh;
+        font-family: 'Lexend Peta', sans-serif;
+    }
+    .header__div_p-logoLil{
+        font-size: 2vh;
+        font-family:'Lexend Peta', sans-serif, light;
+    }
+    .header__div_p-text{
+        font-size: 1.5vh;
+        font-family: 'Source Code Pro', monospace;
+        max-width: 100%;
+    }
+    .main__div{
+        background-color: rgba(217, 217, 217, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: solid 0.4vh black;
+        font-size: 2vh;
+        font-family: 'Source Code Pro', monospace;
+    }
+    .image{
+        width:65vw;
+        height: auto;
+        padding: 19%;
+    }
+    .main_figure-text{
+        font-size: 1.3vh;
+        font-family: 'Source Code Pro', monospace;
+        margin: 3vh 0 3vh 3vh;
+        max-width: 100%;
+    }
+    form>div{
+        display: flex;
+        flex-direction: column;
+        margin: 8vh 10% 0 10%;
+    }
+    .info{
+        border: solid 0.4vh black;
+        border-radius: 37px;
+        font-size: 2.5vh;
+        font-family: 'Source Code Pro', monospace;
+        margin-top: 2vh;
+        padding-left: 2%;
+        width: 75%;
+        height: 7vh;
+    }
+    textarea{
+        border: solid 0.4vh black;
+        border-radius: 35px;
+        font-size: 2.5vh;
+        font-family: 'Source Code Pro', monospace;
+        padding: 4%;
+        margin: 3vh 0 0 0;
+    }
+    .main_div-figure{
+        padding: 0 3vw 10vh 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.main_div-butt:hover {
+    background-color: whitesmoke;
+    color: grey;
+}
