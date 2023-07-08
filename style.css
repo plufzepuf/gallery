@@ -378,7 +378,7 @@ footer{
     .main_figure-text{
         font-size: 1.3vh;
         font-family: 'Source Code Pro', monospace;
-        margin: 5vw 0 3vh 5vw;
+        margin: 3vw 5vw 3vh 5vw;
         max-width: 90%;
     }
     form>div{
