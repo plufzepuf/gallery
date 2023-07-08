@@ -29,8 +29,8 @@
     </header>
     <main class="main">
         <div class="main_div">
-            <a href="#" id="stock" class="main_div-butt">ГАЛЕРЕЯ</a>
-            <a href="#" id="comm" class="main_div-butt">КОММЕНТАРИИ</a>
+            <a href="index.html" id="stock" class="main_div-butt">ГАЛЕРЕЯ</a>
+            <a href="index.php" id="comm" class="main_div-butt">КОММЕНТАРИИ</a>
         </div>
         <article class="main_div-infoArea">
         <form class="form" action="css/form.php" method="post">
