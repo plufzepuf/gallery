@@ -17,7 +17,7 @@
             <p class="header__div_p-logoLil">closet</p>
         </div>
         <div class="header_div-preface">
-            <p class="header__div_p-caption">PREFACE</p>
+            <p class="header__div_p-caption">Предисловие</p>
             <p class="header__div_p-text"><br>Gallery closet - это виртуальное хранилище вещей, их истории, мнение о них. 
                 <br>На создание этого проекта меня натолкнула моя привязанность к одежде, любовь к брендам и стилю. 
                 <br>Сама концепция очень проста: на сайте представлен каталог из вещей, которые находятся у меня в гардеробе, к каждой вещи прилагается история появления в моей коллекции, как часто я её ношу, с чем сочетаю, какие есть повреждения или особенности. 
@@ -29,24 +29,24 @@
     </header>
     <main class="main">
         <div class="main_div">
-            <a href="#" id="stock" class="main_div-butt">STOCK</a>
-            <a href="#" id="comm" class="main_div-butt">COMM</a>
+            <a href="#" id="stock" class="main_div-butt">ГАЛЕРЕЯ</a>
+            <a href="#" id="comm" class="main_div-butt">КОММЕНТАРИИ</a>
         </div>
         <article class="main_div-infoArea">
         <form class="form" action="css/form.php" method="post">
             <div>
-                <label for="name">Your name is:</label>
+                <label for="name">Ваше имя:</label>
                 <input class="info" type="text" name="name" id="name" required>
             </div>
             <div>
-                <label for="mail">Also your e-mail:</label>
+                <label for="mail">Также ваша почта:</label>
                 <input class="info" type="email" name="mail" id="amil" required>
             </div> 
             <div id="commen">  
-                <label for="comm">Place for self-expression:</label>
+                <label for="comm">Место для вашего самовыражения:</label>
                 <textarea name="comm" id="comm" cols="250" rows="10" required></textarea>
             </div>   
-            <button class="butt" type="submit">SEND</button>  
+            <button class="butt" type="submit">Отправить</button>  
         </form>
         </article>
     </main>
