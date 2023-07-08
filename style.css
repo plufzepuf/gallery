@@ -379,7 +379,7 @@ footer{
         font-size: 1.3vh;
         font-family: 'Source Code Pro', monospace;
         margin: 5vw 0 3vh 5vw;
-        max-width: 100%;
+        max-width: 90%;
     }
     form>div{
         display: flex;
